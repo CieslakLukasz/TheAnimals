@@ -60,7 +60,7 @@ footer {
     display: block;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 .toggler {
     display: none;
 }
