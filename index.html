@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+  integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<link rel="stylesheet" href="./style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+    <script src='./index.js' type="text/javascript"></script>
+
+  <title>The Animals</title>
+</head>
+
+<body>
+
+  <!-- main menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="index.html"><img src="./images/hummingbird-295026.svg" width="80" height="80" alt="">The
+      Animals</a>
+    <!-- hidden right collapsing menu (login + menu [dropdown arrow] button) -->
+    <ul class="navbar-nav toggler">
+      <li class="nav-item"><a class="nav-link mr-3" href="contactUs.html"><img src="./images/mail.svg" data-taggle="tooltip"
+            title="contact us" width="30" height="30"></a></li>
+      <li class="nav-item"><a class="nav-link" type="button" data-toggle="collapse" data-target="#mainContent"
+          aria-controls="mainContent" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="./images/arrowdown.svg" width="30" class='rotate'>
+        </a></li>
+    </ul>
+    <!-- main menu navigation -->
+    <div class="collapse navbar-collapse" id="mainContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="birds.html">Birds</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dogs.html">Dogs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cats.html">Cats</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Animals list</a>
+          <div class="dropdown-menu main-dropdown" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="birds.html">Birds</a>
+            <a class="dropdown-item" href="dogs.html">Dogs</a>
+            <a class="dropdown-item" href="cats.html">Cats</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="horses.html">Horses</a>
+            <a class="dropdown-item" href="fishes.html">Fishes</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="contactUs.html">Contact us: <img src="./images/mail.svg" width="30"
+              height="30"></a>
+        </li>
+              </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- main content + sidebar -->
+  <div class="container-lg main-container">
+    <div class="row">
+      <div class="col-lg-8 article-main">
+
+ <!-- single article  -->
+ <span class="anchor" id="dog3"></span>
+ <div class="one-article-commetns my-2">
+  <div class="article-post">
+    <h1 class="article-post-title">Disney dog names</h1>
+    <p class="article-post-meta">April 19, 2021 by <a href="#">Łukasz</a></p>
+    <hr />
+    <p>What better Disney dog name to choose for your companion than a name of an actual dog from a Disney film? These iconic four-legged friends have captured the hearts of viewers across the world, both because of their fun personalities and adorable looks! These are our top Disney dog names:
+      <div class='d-flex flex-wrap'>
+        <img src="https://picsum.photos/id/169/200/200" width="60%" height="60%" alt="orazek">
+        <ul class='mr-2'>
+          <li>Goofy</li>
+          <li>Bolt</li>
+          <li>Pongo</li>
+          <li>Perdita</li>
+          <li>Dodger</li>
+          <li>Lucky</li>
+          <li>Dug</li>
+          <li>Pluto</li>
+          <li>Max</li></ul>
+          <div class='d-flex flex-sm-column'>
+          <ul class='m-sm-0'>
+          <li>Percy</li>
+          <li>Rusty</li>
+          <li>Lady</li>
+          </ul>
+          <ul class='m-sm-0'>
+          <li>Pedro</li>
+          <li>Bruno</li>
+          <li>Toby</li> </ul>
+          <ul class='m-sm-0'>
+          <li>Roscoe</li>
+          <li>Copper</li>
+        </ul>
+      </div>
+
+
+    </div>
+      That's our list of our favourite Disney dog names! Looking for a more unusual name for your pup? Or perhaps a dog name that's more popular? Check out our lists for more inspiration, next!
+    </p>
+<p>Source: <a href="https://www.purina.co.uk/find-a-pet/articles/getting-a-dog/dog-names/disney-dog-names">purina.com</a></p>
+  </div>
+  <!-- comment section -->
+  <div class="container-lg comments">
+    <div class="d-flex comments-header post-show-comment">
+      <h3>Show Comments (<span class='comment-count'>0</span>)</h3>
+
+    </div>
+    <div class='hide post-toggle'>
+    <form class="d-flex flex-column post-submit">
+      <input  type='text' placeholder='Your nickname' class="border mb-1 post-nickName">
+      <textarea placeholder='Add your comment...' rows='4' width="100%"
+        class="border post-comment"></textarea>
+      <button type='submit' class='btn btn-grey'>Add comment</button>
+    </form>
+    <div class="comments-comments pt-2" id='birds1-comment-section'>
+      <div class="comments-single p-1 border rounded">
+        <h6>NickName</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor massa eget rutrum feugiat. Cras eget bibendum elit. Praesent ut enim ut mi tincidunt porta.</p>
+        <span class='likes'><img src='./images/like.svg' width="20"><span>0</span></span><span class='dislikes'><img src='./images/dislike.svg' width="20"><span>0</span></span>
+      </div>
+    </div>
+    <p class='post-hide-comment mt-2'>Hide comments</p>
+    </div>
+  </div>
+  <!-- end of comment section -->
+</div>
+<!-- end of single article -->
+
+        <!-- single article  -->
+        <span class="anchor" id="dog2"></span>
+        <div class="one-article-commetns my-2">
+          <div class="article-post">
+            <h1 class="article-post-title">How do you know if your dog is happy?</h1>
+            <p class="article-post-meta">April 20, 2021 by <a href="#">Łukasz</a></p>
+            <hr />
+            <div class="d-flex justify-content-center">
+              <img src="https://picsum.photos/id/1025/300/300" width="90%" alt="orazek"></div>
+            <p>
+
+              If dogs can’t laugh or smile like humans do, how do they show happiness? Many people think dogs wag their tails to show happiness, but this isn’t necessarily true. Dogs use their tails for a range of communications and the message depends on the tail’s position.
+
+              A neutral position, where the tail is naturally held for the breed, means that the dog is relaxed. When dogs drop their tails to a lower position, it’s a sign of submission and anxiety. And when they raise their tails in the air it’s an aggressive or dominant motion. Tail wagging is linked to excitement.
+              
+              Instead of focusing on whether your dog is smiling or laughing, it makes more sense to look at the dog’s body language and actions to see if they are happy. You can look at the whole body for signs like a wagging tail, an open mouth and a relaxed pose.
+              
+              Read more about dog body language with our expert guide.
+            </p>
+              <p>Source: <a href="https://www.purina.co.uk/articles/dogs/behaviour/common-questions/can-dogs-laugh-or-smile">purina.com</a></p>
+          </div>
+          <!-- comment section -->
+          <div class="container-lg comments">
+            <div class="d-flex comments-header post-show-comment">
+              <h3>Show Comments (<span class='comment-count'>0</span>)</h3>
+
+            </div>
+            <div class='hide post-toggle'>
+            <form class="d-flex flex-column post-submit">
+              <input  type='text' placeholder='Your nickname' class="border mb-1 post-nickName">
+              <textarea placeholder='Add your comment...' rows='4' width="100%"
+                class="border post-comment"></textarea>
+              <button type='submit' class='btn btn-grey'>Add comment</button>
+            </form>
+            <div class="comments-comments pt-2" id='birds1-comment-section'>
+              <div class="comments-single p-1 border rounded">
+                <h6>NickName</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor massa eget rutrum feugiat. Cras eget bibendum elit. Praesent ut enim ut mi tincidunt porta.</p>
+                <span class='likes'><img src='./images/like.svg' width="20"><span>0</span></span><span class='dislikes'><img src='./images/dislike.svg' width="20"><span>0</span></span>
+              </div>
+              <div class="comments-single p-1 border rounded">
+                <h6>NickName</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor massa eget rutrum feugiat. Cras eget bibendum elit. Praesent ut enim ut mi tincidunt porta.</p>
+                <span class='likes'><img src='./images/like.svg' width="20"><span>0</span></span><span class='dislikes'><img src='./images/dislike.svg' width="20"><span>0</span></span>
+              </div>
+            </div>
+            <p class='post-hide-comment mt-2'>Hide comments</p>
+            </div>
+          </div>
+          <!-- end of comment section -->
+        </div>
+        <!-- end of single article -->
+
+        <!-- single article  -->
+        <span class="anchor" id="dog1"></span>
+        <div class="one-article-commetns my-2">
+          <div class="article-post">
+            <h1 class="article-post-title">What does a dog laugh sound like?</h1>
+            <p class="article-post-meta">April 19, 2021 by <a href="#">Łukasz</a></p>
+            <hr />
+            <p>All laughter is a sound made by exhaling and inhaling air. Human laughter is made when the chest muscles squeeze air out of the ribcage, creating a vocalised, spoken “ha ha” sound. Dog laughter is created by panting without any vocalisation, creating a more “hhuh hhah” sound.
+
+              Some dog owners want to try and mimic dog laughter to build a bond with their dogs. To do this, make slightly rounded lips for the “hhuh” sound, then open your mouth and make a slight smile for the “hhah” sounds, and alternate between the two. The sound should be breathy with no actual voicing of noises – think of it like panting. Some dog owners claim their dogs respond to it by sitting up, wagging their tails and approaching to investigate the noise.
+               <p>Source: <a href="https://www.purina.co.uk/articles/dogs/behaviour/common-questions/can-dogs-laugh-or-smile">purina.com</a></p>
+          </div>
+          <!-- comment section -->
+          <div class="container-lg comments">
+            <div class="d-flex comments-header post-show-comment">
+              <h3>Show Comments (<span class='comment-count'>0</span>)</h3>
+
+            </div>
+            <div class='hide post-toggle'>
+            <form class="d-flex flex-column post-submit">
+              <input  type='text' placeholder='Your nickname' class="border mb-1 post-nickName">
+              <textarea placeholder='Add your comment...' rows='4' width="100%"
+                class="border post-comment"></textarea>
+              <button type='submit' class='btn btn-grey'>Add comment</button>
+            </form>
+            <div class="comments-comments pt-2" id='birds1-comment-section'>
+              <div class="comments-single p-1 border rounded">
+                <h6>NickName</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor massa eget rutrum feugiat. Cras eget bibendum elit. Praesent ut enim ut mi tincidunt porta.</p>
+                <span class='likes'><img src='./images/like.svg' width="20"><span>0</span></span><span class='dislikes'><img src='./images/dislike.svg' width="20"><span>0</span></span>
+              </div>
+              <div class="comments-single p-1 border rounded">
+                <h6>NickName</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor massa eget rutrum feugiat. Cras eget bibendum elit. Praesent ut enim ut mi tincidunt porta.</p>
+                <span class='likes'><img src='./images/like.svg' width="20"><span>0</span></span><span class='dislikes'><img src='./images/dislike.svg' width="20"><span>0</span></span>
+              </div>
+            </div>
+            <p class='post-hide-comment mt-2'>Hide comments</p>
+            </div>
+          </div>
+          <!-- end of comment section -->
+        </div>
+        <!-- end of single article -->
+
+
+
+      </div>
+      <!-- sidebar - most popular articles -->
+      <div class="col-lg-4 article-sidebar ">
+        <div class="sticky-top article-sidebar-popular">
+          <div class="bg-light border rounded ">
+            <h5 class="text-md-center font-italic">Most popular</h5>
+            <div class="article-sidebar-news p-1">
+              <a href="birds.html#birds">
+                <h5 class="my-1">Birds</h5>
+                <div class="d-flex">
+                  <img src="https://picsum.photos/id/1024/100/100" width="100" height="100" alt="orazek">
+                  <p class='ml-1'>Birds are a group of warm-blooded vertebrates...</p>
+                </div>
+              </a>
+            </div>
+            <div class="article-sidebar-news p-1">
+              <a href="dogs.html#dog2">
+                <h5 class="my-1">How do you know if your dog is happy?</h5>
+                <div class="d-flex">
+                  <img src="https://picsum.photos/id/237/100/100" width="100" height="100" alt="orazek">
+                  <p class='ml-1'>If dogs can’t laugh or smile like humans do, how do they show happiness?</p>
+                </div>
+              </a>
+            </div>
+            <div class="article-sidebar-news p-1">
+              <a href="cats.html#cat2">
+                <h5 class="my-1">10 Fascinating Facts About Cats</h5>
+                <div class="d-flex">
+                  <img src="https://picsum.photos/id/40/100/100" width="100" height="100" alt="orazek">
+                  <p class='ml-1'>How to use your brand new cartoons, to please your cat master...</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of sidebar -->
+    </div>
+
+ </div>
+    <!-- footer -->
+    <footer class='d-lg-flex mt-5 p-3 bg-grey'>
+      <div class='m-2'>
+        <h5>Stay connected</h5>
+        <p>Join over 5000 users who recive weekly animals news:</p>
+        <form class='d-flex align-items-center'>
+          <input type='email' placeholder="Email adress"><input type='submit' class='btn btn-grey border ml-1'>
+        </form>
+      </div>
+      <div class='m-2 d-flex flex-column'>
+        <h5>Follow us</h5>
+        <a href='#' class="text-secondary">Facebook</a>
+        <a href='#' class="text-secondary">Tweeter</a>
+        <a href='#' class="text-secondary">LinkedIn</a>
+      </div>
+      <div class='m-2 d-flex flex-column'>
+      <a href='contactUs.html'class="text-secondary">Contact us</a>
+      <a href='#' class="text-secondary">Privacy Policy</a>
+      <br/>
+      <span>The Animals made by: <a href="https://github.com/CieslakLukasz/" target='_blank' class="text-secondary">Łukasz Cieślak</a></span>
+      <span><span>&#169;</span>Copyright 2021</span>
+      </div>
+      <div>
+
+      </div>
+
+    </footer>
+    <div class='bg-grey pl-2'> Icons made by: <a href='https://www.iconfinder.com/Fishmoby' class="text-secondary">Fishmoby</a></div>
+
+
+
+
+
+
+
+</body>
+
+</html>

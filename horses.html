@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+    <script src='./index.js' type="text/javascript"></script>
+
+  <title>The Animals</title>
+</head>
+
+<body>
+
+  <!-- main menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="index.html"><img src="./images/hummingbird-295026.svg" width="80" height="80" alt="">The
+      Animals</a>
+    <!-- hidden right collapsing menu (login + menu [dropdown arrow] button) -->
+    <ul class="navbar-nav toggler">
+      <li class="nav-item"><a class="nav-link mr-3" href="contactUs.html"><img src="./images/mail.svg" data-taggle="tooltip"
+            title="contact us" width="30" height="30"></a></li>
+      <li class="nav-item"><a class="nav-link" type="button" data-toggle="collapse" data-target="#mainContent"
+          aria-controls="mainContent" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="./images/arrowdown.svg" width="30" class='rotate'>
+        </a></li>
+    </ul>
+    <!-- main menu navigation -->
+    <div class="collapse navbar-collapse" id="mainContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="birds.html">Birds</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dogs.html">Dogs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cats.html">Cats</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Animals list</a>
+          <div class="dropdown-menu main-dropdown" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="birds.html">Birds</a>
+            <a class="dropdown-item" href="dogs.html">Dogs</a>
+            <a class="dropdown-item" href="cats.html">Cats</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="horses.html">Horses</a>
+            <a class="dropdown-item" href="fishes.html">Fishes</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="contactUs.html">Contact us: <img src="./images/mail.svg" width="30"
+              height="30"></a>
+        </li>
+              </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- main content + sidebar -->
+  <div class="container-lg main-container">
+    <div class="row">
+      <div class="col-lg-8 article-main">
+
+ <!-- single article  -->
+ <span class="anchor" id="horse2"></span>
+ <div class="one-article-commetns my-2">
+  <div class="article-post">
+    <h1 class="article-post-title">Horse Facts: 15 Fun Facts about Horses</h1>
+    <p class="article-post-meta">April 19, 2021 by <a href="#">Łukasz</a></p>
+    <hr />
+    <p>Check out these fun horse facts and enjoy learning a wide range of interesting information about horses. How many of these did you already know?</p>
+    <img src="https://picsum.photos/id/584/800/300" width="100%" alt="orazek">
+    <ul>
+      <li>Horses can sleep both lying down and standing up.</li>
+      <li>Horses can run shortly after birth.</li>
+      <li>Horses have around 205 bones in their skeleton.</li>
+      <li>Horses have bigger eyes than any other mammal that lives on land.</li>
+      <li>Because horse’s eyes are on the side of their head they are capable of seeing nearly 360 degrees at one time</li>
+      <li>Horses gallop at around 27 mph</li>
+      <li>The fastest recorded sprinting speed of a horse was 55 mph</li>
+      <li>When horses look like they’re laughing, they’re actually engaging in a special nose-enhancing technique known as “flehmen,” to determine whether a smell is good or bad</li>
+      <li>Horse hooves are made from the same protein that comprises human hair and fingernails</li>
+      <li>Horses use their ears, eyes and nostrils to express their mood. They also communicate their feelings through facial expressions</li>
+      <li>A horse can see better at night than a human. However, it takes a horse's eyes longer to adjust from light to dark and from dark to light than a human's</li>
+      <li>Horses with pink skin can get a sunburn</li>
+      <li>You can tell if a horse is cold by feeling behind their ears. If that area is cold, so is the horse</li>
+      <li>Horses are social animals and will get lonely if kept alone, and they will mourn the passing of a companion</li>
+      <li>Horse’s ears have the ability to rotate 180 degrees </li>
+    </ul>
+    <p>Can you add any more horse facts to the list?</p>
+<p>Source: <a href="https://www.gibsonhorses.com/blog-1/horse-facts-15-fun-facts-about-horses">gibsonhorses.com</a></p>
+  </div>
+  <!-- comment section -->
+  <div class="container-lg comments">
+    <div class="d-flex comments-header post-show-comment">
+      <h3>Show Comments (<span class='comment-count'>0</span>)</h3>
+
+    </div>
+    <div class='hide post-toggle'>
+    <form class="d-flex flex-column post-submit">
+      <input  type='text' placeholder='Your nickname' class="border mb-1 post-nickName">
+      <textarea placeholder='Add your comment...' rows='4' width="100%"
+        class="border post-comment"></textarea>
+      <button type='submit' class='btn btn-grey'>Add comment</button>
+    </form>
+    <div class="comments-comments pt-2" id='birds1-comment-section'>
+      <div class="comments-single p-1 border rounded">
+        <h6>NickName</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor massa eget rutrum feugiat. Cras eget bibendum elit. Praesent ut enim ut mi tincidunt porta.</p>
+        <span class='likes'><img src='./images/like.svg' width="20"><span>0</span></span><span class='dislikes'><img src='./images/dislike.svg' width="20"><span>0</span></span>
+      </div>
+      <div class="comments-single p-1 border rounded">
+        <h6>NickName</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor massa eget rutrum feugiat. Cras eget bibendum elit. Praesent ut enim ut mi tincidunt porta.</p>
+        <span class='likes'><img src='./images/like.svg' width="20"><span>0</span></span><span class='dislikes'><img src='./images/dislike.svg' width="20"><span>0</span></span>
+      </div>
+    </div>
+    <p class='post-hide-comment mt-2'>Hide comments</p>
+    </div>
+  </div>
+  <!-- end of comment section -->
+</div>
+<!-- end of single article -->
+
+        <!-- single article  -->
+        <span class="anchor" id="horse1"></span>
+        <div class="one-article-commetns my-2">
+          <div class="article-post">
+            <h1 class="article-post-title">Horses</h1>
+            <p class="article-post-meta">April 20, 2021 by <a href="#">Łukasz</a></p>
+            <hr />
+              <span class='font-weight-bold'>Learn More About Horses.</span>
+              <img src="https://picsum.photos/id/729/800/200" width="100%" alt="orazek">
+            <p>The horse (Equus ferus caballus) is a domesticated odd-toed ungulate mammal. It belongs to the taxonomic family Equidae and is one of two extant subspecies of Equus ferus. The horse has evolved over the past 45 to 55 million years from a small multi-toed creature, Eohippus, into the large, single-toed animal of today. Humans began domesticating horses around 4000 BC, and their domestication is believed to have been widespread by 3000 BC. Horses in the subspecies caballus are domesticated, although some domesticated populations live in the wild as feral horses. These feral populations are not true wild horses, as this term is used to describe horses that have never been domesticated, such as the endangered Przewalski's horse, a separate subspecies, and the only remaining true wild horse. There is an extensive, specialized vocabulary used to describe equine-related concepts, covering everything from anatomy to life stages, size, colors, markings, breeds, locomotion, and behavior.</p>
+
+              <p>Source: <a href=https://en.wikipedia.org/wiki/Horse>wikipedia</a></p>
+          </div>
+          <!-- comment section -->
+          <div class="container-lg comments">
+            <div class="d-flex comments-header post-show-comment">
+              <h3>Show Comments (<span class='comment-count'>0</span>)</h3>
+
+            </div>
+            <div class='hide post-toggle'>
+            <form class="d-flex flex-column post-submit">
+              <input  type='text' placeholder='Your nickname' class="border mb-1 post-nickName">
+              <textarea placeholder='Add your comment...' rows='4' width="100%"
+                class="border post-comment"></textarea>
+              <button type='submit' class='btn btn-grey'>Add comment</button>
+            </form>
+            <div class="comments-comments pt-2" id='birds1-comment-section'>
+              <div class="comments-single p-1 border rounded">
+                <h6>NickName</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor massa eget rutrum feugiat. Cras eget bibendum elit. Praesent ut enim ut mi tincidunt porta.</p>
+                <span class='likes'><img src='./images/like.svg' width="20"><span>0</span></span><span class='dislikes'><img src='./images/dislike.svg' width="20"><span>0</span></span>
+              </div>
+              <div class="comments-single p-1 border rounded">
+                <h6>NickName</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor massa eget rutrum feugiat. Cras eget bibendum elit. Praesent ut enim ut mi tincidunt porta.</p>
+                <span class='likes'><img src='./images/like.svg' width="20"><span>0</span></span><span class='dislikes'><img src='./images/dislike.svg' width="20"><span>0</span></span>
+              </div>
+              <div class="comments-single p-1 border rounded">
+                <h6>NickName</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor massa eget rutrum feugiat. Cras eget bibendum elit. Praesent ut enim ut mi tincidunt porta.</p>
+                <span class='likes'><img src='./images/like.svg' width="20"><span>0</span></span><span class='dislikes'><img src='./images/dislike.svg' width="20"><span>0</span></span>
+              </div>
+            </div>
+            <p class='post-hide-comment mt-2'>Hide comments</p>
+            </div>
+          </div>
+          <!-- end of comment section -->
+        </div>
+        <!-- end of single article -->
+
+
+      </div>
+      <!-- sidebar - most popular articles -->
+      <div class="col-lg-4 article-sidebar ">
+        <div class="sticky-top article-sidebar-popular">
+          <div class="bg-light border rounded ">
+            <h5 class="text-md-center font-italic">Most popular</h5>
+            <div class="article-sidebar-news p-1">
+              <a href="birds.html#birds">
+                <h5 class="my-1">Birds</h5>
+                <div class="d-flex">
+                  <img src="https://picsum.photos/id/1024/100/100" width="100" height="100" alt="orazek">
+                  <p class='ml-1'>Birds are a group of warm-blooded vertebrates...</p>
+                </div>
+              </a>
+            </div>
+            <div class="article-sidebar-news p-1">
+              <a href="dogs.html#dog2">
+                <h5 class="my-1">How do you know if your dog is happy?</h5>
+                <div class="d-flex">
+                  <img src="https://picsum.photos/id/237/100/100" width="100" height="100" alt="orazek">
+                  <p class='ml-1'>If dogs can’t laugh or smile like humans do, how do they show happiness?</p>
+                </div>
+              </a>
+            </div>
+            <div class="article-sidebar-news p-1">
+              <a href="cats.html#cat2">
+                <h5 class="my-1">10 Fascinating Facts About Cats</h5>
+                <div class="d-flex">
+                  <img src="https://picsum.photos/id/40/100/100" width="100" height="100" alt="orazek">
+                  <p class='ml-1'>How to use your brand new cartoons, to please your cat master...</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of sidebar -->
+    </div>
+
+  </div>
+
+    <!-- footer -->
+    <footer class='d-lg-flex mt-5 p-3 bg-grey'>
+      <div class='m-2'>
+        <h5>Stay connected</h5>
+        <p>Join over 5000 users who recive weekly animals news:</p>
+        <form class='d-flex align-items-center'>
+          <input type='email' placeholder="Email adress"><input type='submit' class='btn btn-grey border ml-1'>
+        </form>
+      </div>
+      <div class='m-2 d-flex flex-column'>
+        <h5>Follow us</h5>
+        <a href='#' class="text-secondary">Facebook</a>
+        <a href='#' class="text-secondary">Tweeter</a>
+        <a href='#' class="text-secondary">LinkedIn</a>
+      </div>
+      <div class='m-2 d-flex flex-column'>
+      <a href='contactUs.html'class="text-secondary">Contact us</a>
+      <a href='#' class="text-secondary">Privacy Policy</a>
+      <br/>
+      <span>The Animals made by: <a href="https://github.com/CieslakLukasz/" target='_blank' class="text-secondary">Łukasz Cieślak</a></span>
+      <span><span>&#169;</span>Copyright 2021</span>
+      </div>
+      <div>
+
+      </div>
+
+    </footer>
+    <div class='bg-grey pl-2'> Icons made by: <a href='https://www.iconfinder.com/Fishmoby' class="text-secondary">Fishmoby</a></div>
+
+
+
+
+</body>
+
+</html>

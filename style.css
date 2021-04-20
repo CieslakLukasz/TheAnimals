@@ -1,0 +1,73 @@
+footer {
+   justify-content: space-evenly;
+}
+.rotate {
+    transform: rotate(270deg) rotateY(0deg);
+    transition: 0.5s;
+}
+.rotateBack{
+    transform: rotate(270deg) rotateY(180deg);
+    transition: 0.5s;
+
+}
+.toggler {
+    flex-direction: row;
+}
+.article-sidebar-sticky {
+    position:absolute;
+    top:200px;
+    right:0;
+}
+
+.anchor{
+    display: block;
+    height: 115px;
+    margin-top: -115px;
+    visibility: hidden;
+  }
+
+.main-container {
+    padding-top: 100px;
+}
+.likes {
+    color: green;
+    margin-right: 20px;
+}
+.dislikes {
+    color: red;
+}
+
+#mainContent{
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    z-index: 2;
+}
+.btn-grey {
+    background-color: rgb(202, 202, 202);
+    border: 1px solid grey;
+}
+
+.bg-grey {
+    background-color: rgba(202, 202, 202, 0.5);
+}
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+@media (min-width: 992px) {
+.toggler {
+    display: none;
+}
+.article-sidebar-popular {
+    padding-top: 150px;
+}
+#mainContent{
+    position: relative;
+}
+}
